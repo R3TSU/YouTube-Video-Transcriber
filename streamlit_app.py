@@ -10,7 +10,7 @@ def get_video_id(url):
 def get_transcript(video_id):
     """Get transcript for a given video ID"""
     try:
-        transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
+        transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['id', 'en'])
         transcript = ' '.join([t['text'] for t in transcript_list])
         return transcript
     except Exception as e:
