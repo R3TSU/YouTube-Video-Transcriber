@@ -9,7 +9,8 @@ readme = "README.md"
 python = ">=3.10.0,<3.14"
 streamlit = "^1.41.1"
 youtube-transcript-api = "^0.6.3"
-pytube = { git = "https://github.com/Abhishek05454/pytube", branch = "patch-1" }
+pytube = { git = "https://github.com/WildDIC/pytube"}
+#pytube = { git = "https://github.com/Abhishek05454/pytube", branch = "patch-1" }
 
 
 

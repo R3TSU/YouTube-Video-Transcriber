@@ -431,17 +431,17 @@ files = [
 
 [[package]]
 name = "narwhals"
-version = "1.19.0"
+version = "1.19.1"
 description = "Extremely lightweight compatibility layer between dataframe libraries"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "narwhals-1.19.0-py3-none-any.whl", hash = "sha256:517eca140103dbf61e4513fe462885a06bc21b565521a5ac0b79a7e31f152efe"},
-    {file = "narwhals-1.19.0.tar.gz", hash = "sha256:a1a03bf922548ed1da5426acc954327a94c02c3a08558b65a0937dbd3b77fb48"},
+    {file = "narwhals-1.19.1-py3-none-any.whl", hash = "sha256:72476dcc95f1d3f2c0c1f047cdd4879346b2871fe13d1223025466d8a3dcaea4"},
+    {file = "narwhals-1.19.1.tar.gz", hash = "sha256:e597e7ed9da42ffb2c80b21e174817b27592a8570edea8c46c90a726e3b796af"},
 ]
 
 [package.extras]
-cudf = ["cudf (>=23.08.00)"]
+cudf = ["cudf (>=24.12.0)"]
 dask = ["dask[dataframe] (>=2024.7)"]
 dev = ["covdefaults", "dask[dataframe]", "duckdb", "hypothesis", "hypothesis[numpy]", "pandas", "polars", "pyarrow", "pyarrow-stubs", "pyspark", "pytest", "pytest-cov", "pytest-env", "pytest-randomly", "scikit-learn", "tqdm", "typing-extensions"]
 docs = ["black", "duckdb", "jinja2", "markdown-exec[ansi]", "mkdocs", "mkdocs-autorefs", "mkdocs-material", "mkdocstrings[python]", "pandas", "polars (>=1.0.0)", "pyarrow"]
@@ -836,9 +836,9 @@ develop = false
 
 [package.source]
 type = "git"
-url = "https://github.com/Abhishek05454/pytube"
-reference = "patch-1"
-resolved_reference = "27ba0248dac55e3bcecd8a54b509a1ca58d72ca0"
+url = "https://github.com/WildDIC/pytube"
+reference = "HEAD"
+resolved_reference = "74323430e780c55386d6a56c5f1eac1f87f0d745"
 
 [[package]]
 name = "pytz"
@@ -1220,4 +1220,4 @@ requests = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.14"
-content-hash = "8b2ee6674a221024168a58032ac799f0b64198549dd8b2f883d4c4ab5ebb4fb7"
+content-hash = "1f38a1f8538a7f760ccc0f67899404668e59ca004a7fc359dc68d1f14fb5d2d1"
